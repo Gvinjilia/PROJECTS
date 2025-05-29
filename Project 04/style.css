@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&display=swap');
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+body{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-div{
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.div-1{
+    background-color: hsl(31, 77%, 52%);
+    padding-left: 30px;
+    width:250px;
+    height:430px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius:10px;
+}
+
+.paragraph1{
+    font-family: "Big Shoulders Display", serif;
+    color:white;
+    font-size: 35px;
+    font-weight: 600;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.paragraph2{
+    font-family: "Lexend Deca", serif;
+    font-size: 13px;
+    color:hsla(0, 0%, 100%, 0.75);
+    margin-bottom: 100px;
+}
+
+.button1{
+    padding: 10px;
+    width:120px;
+    border:none;
+    background-color: white;
+    color:hsl(31, 77%, 52%);
+    border-radius: 20px;
+    font-family: "Lexend Deca", serif;
+    font-weight: 500;
+}
+
+.button1:hover{
+    cursor: pointer;
+}
+
+.div-2{
+    background-color: hsl(184, 100%, 22%);
+    padding-left: 30px;
+    width:250px;
+    height:430px;
+}
+
+.button2{
+    padding: 10px;
+    width:130px;
+    border:none;
+    background-color: white;
+    color:hsl(184, 100%, 22%);
+    border-radius: 20px;
+    font-family: "Lexend Deca", serif;
+    font-weight: 500;
+}
+
+.button2:hover{
+    cursor: pointer;
+}
+
+.div-3{
+    background-color: hsl(179, 100%, 13%);
+    padding-left: 30px;
+    width:250px;
+    height:430px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.button3{
+    padding: 10px;
+    width:130px;
+    border:none;
+    background-color: white;
+    color:hsl(179, 100%, 13%);
+    border-radius: 20px;
+    font-family: "Lexend Deca", serif;
+    font-weight: 500;
+}
+
+.button3:hover{
+    cursor: pointer;
+}
+
+svg {
+    margin-top: 30px;
+}

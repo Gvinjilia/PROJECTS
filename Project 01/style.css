@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Zetta:wght@100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Charm:wght@400;700&display=swap');
+*{
+    padding:0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: hsl(42, 83%, 59%);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    width:1500px;
+    height: 700px;
+    padding-top:50px;
+    background-color: #FCEFEA;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+    position: relative;
+}
+
+.main-div{
+    display: flex;
+    flex-direction: row;
+    gap:800px
+}
+
+.main-2{
+    display: flex;
+    flex-direction: row;
+}
+
+.row-icon{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.p{
+    padding-left: 10px;
+    color:#989493;
+    font-family:"Lexend Zetta", serif;
+    font-weight: 500;
+}
+
+
+img{
+    width:250px;
+    height: 350px;
+    border-radius: 10px;
+    transition: transform 0.25s ease;
+}
+
+img:hover{
+    transform:scale(1.1)
+}
+
+.div-image{
+    padding-right: 50px;
+    padding-top: 50px;
+}
+
+.paragraph1{
+    margin-bottom: 10px;
+    padding-top: 10px;
+    font-family: "Roboto Condensed", serif;
+}
+
+.paragraph2{
+    color:#707070;
+    font-family: "Roboto Condensed", serif;
+}
+
+.paragraph{
+    font-family: "Charm", serif;
+    font-weight: 900;
+    font-size: 20px;
+    border-bottom: 1px solid black;
+}
+
+.paragraph3{
+    color:#707070;
+    font-family: "Roboto Condensed", serif;
+    padding-top: 5px;
+}
+
+
+.div-icon{
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    left:0;
+    padding-left: 20px;
+    background-color: #174EA6;
+    position: absolute;
+    bottom:0;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    gap:30px;
+    padding-top: 50px;
+    padding-right: 20px;
+}
+
+button{
+    padding:10px;
+    background-color: #242627;
+    border-radius: 5px;
+    color:white;
+    border:none
+}
