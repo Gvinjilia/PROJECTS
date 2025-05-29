@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+}
+
+header{
+    background-image: url(images/bg-pattern-intro-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 160%;
+    background-position: 20%;
+    background-color: color-mix(in hsl, hsl(13, 92%, 67%), hsl(353, 100%, 65%));
+    height:500px;
+    border-bottom-left-radius: 100px;
+    margin-bottom: 100px;
+}
+
+.logo-div{
+    display: flex;
+    flex-direction: row;
+    padding-left: 150px;
+    padding-top: 50px;
+    margin-bottom: 100px;
+}
+
+.logo{
+    padding-right: 50px;
+}
+
+.product-div{
+    padding-top: 10px;
+    padding-right: 15px;
+}
+
+.Company-div{
+    padding-top: 10px;
+    padding-right: 15px;
+}
+
+.Connect-div{
+    padding-top: 10px;
+    padding-right: 700px;
+}
+
+.a1{
+    text-decoration: none;
+    font-family: "Ubuntu", sans-serif;
+    color:hsl(0, 0%, 100%)
+}
+
+.login-div{
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+}
+
+.a2{
+    text-decoration: none;
+    font-family: "Ubuntu", sans-serif;
+    color:hsl(0, 0%, 100%);
+    padding-top: 10px;
+}
+
+.a1:hover{
+    cursor: pointer;
+}
+
+.a2:hover{
+    cursor: pointer;
+}
+
+.button1{
+    border:none;
+    padding: 10px;
+    width:100px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    color:hsl(356, 100%, 66%);
+    font-weight: 700;
+}
+
+.button1:hover{
+    background-color:rgb(254, 151, 140);
+    color:hsl(0, 0%, 100%);
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.header-main-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 50px;
+    font-family: "Overpass", sans-serif;
+    color:hsl(0, 0%, 100%);
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.paragraph1{
+    color:hsl(0, 0%, 100%); 
+    font-family: "Overpass", sans-serif;
+    font-weight: 300;
+    margin-bottom: 50px;
+}
+
+.button2{
+    border:none;
+    padding: 13px;
+    width:120px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    color:hsl(356, 100%, 66%);
+    font-weight: 700;
+    margin-right: 20px;
+}
+
+.button2:hover{
+    background-color:rgb(254, 151, 140);
+    color:hsl(0, 0%, 100%);
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.button3{
+    border:1px solid hsl(0, 0%, 100%);
+    padding: 13px;
+    width:120px;
+    background-color:transparent;
+    border-radius: 20px;
+    color:hsl(0, 0%, 100%);
+    font-weight: 700;
+}
+
+.button3:hover{
+    background-color: hsl(0, 0%, 100%);
+    color:hsl(356, 100%, 66%);
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.h2-1{
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    font-family: "Overpass", sans-serif;
+    color:hsl(208, 49%, 24%);
+    margin-bottom: 100px;
+}
+
+.main-designed-future-info{
+    display: flex;
+    flex-direction: row;
+    padding-left: 230px;
+    padding-right: 50px;
+    margin-bottom: 400px;
+}
+
+
+h3{
+    font-size: 30px;
+    color:hsl(208, 49%, 24%);
+    font-family: "Overpass", sans-serif;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.paragraph2{
+    font-family: "Overpass", sans-serif;
+    color:hsl(238, 13%, 40%);
+    margin-bottom: 50px;
+}
+
+.editor-img{
+    position: absolute;
+    top:600px;
+    left:750px
+}
+
+.phones{
+    background-color: #3C4061;
+    display: flex;
+    flex-direction: row;
+    height:400px;
+    margin-bottom: 200px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+}
+
+.phone-img{
+    height:500px;
+    padding-left: 150px;
+    background-image: url(images/bg-pattern-circles.svg);
+    background-position: -100px -300px;
+    background-size: 700px;
+    background-repeat: no-repeat;
+}
+
+.phones-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 100px;
+}
+
+.h2-2{
+    font-size: 35px;
+    font-family: "Overpass", sans-serif;
+    color:hsl(0, 0%, 100%);
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.paragraph3{
+    font-family: "Overpass", sans-serif;
+    color:hsl(240, 2%, 79%);
+    font-weight: 300;
+}
+
+.computer-div{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 100px;
+}
+
+.laptop-info{
+    padding-top: 200px;
+}
+
+.footer-div{
+    background-color: hsl(240, 10%, 16%);
+    height:350px;
+    padding-left: 150px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    border-top-right-radius: 100px;
+}
+
+.footer-logo-div{
+    padding-right: 200px;
+}
+
+
+.footer-product-div{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    padding-right: 200px;
+}
+
+.main-a{
+    text-decoration: none;
+    color:white;
+    font-weight: 500;
+    font-family: "Overpass", sans-serif;
+    margin-bottom: 30px;
+}
+
+.main-a:hover{
+    cursor: pointer;
+}
+
+.a3{
+    text-decoration: none;
+    color:hsl(240, 2%, 79%);
+    font-family: "Overpass", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.a3:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.footer-company-div{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    padding-right: 200px;
+}
+
+.footer-connect-div{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    padding-right: 200px;
+}
