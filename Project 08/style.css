@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+    font-family: "Raleway", serif;
+}
+
+body{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(229, 57%, 11%);
+    background-image: url(./images/bg-desktop.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: 470px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    gap:30px
+}
+
+.div-1{
+    background-color: hsl(228, 56%, 26%);
+    width:300px;
+    height:180px;
+    padding-left: 40px;
+    padding-top: 40px;
+    border-radius: 10px;
+    border-top-right-radius: 100px;
+}
+
+.img1{
+    width:120px;
+    margin-bottom: 30px;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+}
+
+.icon1{
+    background-color: hsl(229, 57%, 11%);
+    width:40px;
+    height:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.icon2{
+    background-color: hsl(229, 57%, 11%);
+    width:40px;
+    height:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.icon-3{
+    background-color: hsl(229, 57%, 11%);
+    width:40px;
+    height:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.div-2-parent-div{
+    padding-top: 55px;
+}
+
+.div-2{
+    position: relative;
+    background-color: hsl(228, 56%, 26%);
+    width:500px;
+    height:125px;
+    border-radius: 10px;
+    padding-left: 40px;
+    padding-top: 25px;
+}
+
+.paragraph1{
+    color:#b1b5cd;
+    font-size: 14px;
+    margin-bottom:10px
+}
+
+.paragraph1 span{
+    color:hsl(243, 100%, 93%);
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.div2{
+    width:400px;
+    height:20px;
+    border-radius: 20px;
+    background-color: #151E49;
+    margin-bottom: 10px;
+    padding-top: 3px;
+    padding-left: 3px;
+    position: relative;
+}
+
+.child-div {
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    animation: loading-dot 2s 1s ease infinite;
+}
+
+
+.parent-div{
+    width:390px;
+    height:15px;
+    border-radius: 20px;
+    background-color: #151E49;
+    margin-bottom: 10px;
+    animation:loading 2s 1s infinite;
+    padding-top: 2px;
+}
+
+
+.comment-div{
+    position: absolute;
+    background-color: white;
+    left:270px;
+    bottom:50px;
+    width:150px;
+    height:60px;
+    padding-left: 20px;
+    padding-top: 10px;
+    border-radius: 10px 10px 0 10px;
+}
+
+h1 span{
+    color:hsl(229, 7%, 55%);
+    font-size: 12px;
+}
+
+.number-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 60px;
+}
+
+.paragraph2{
+    font-weight: 700;
+    color:#b1b5cd;
+    font-size: 14px;
+}
+
+.img3{
+    width:90px;
+    height:auto;
+}
+
+.div3{
+    padding-top: 10px;
+    padding-left: 78px;
+}
+
+@keyframes loading{
+    from{
+        width:0%;
+        background-color: hsl(6, 100%, 80%);
+    }
+
+    to{
+        width:390px;
+        background-color: hsl(335, 100%, 65%);
+    }
+}
+
+@keyframes loading-dot {
+    from{
+        left: 0%;
+    }
+
+    to {
+        left: 380px;
+    }
+}
+
+@media screen and (max-width:1413px){
+    body{
+        background-image: none;
+
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+        gap:0
+    }
+
+    .div-2-parent-div{
+        padding-top: 10px;
+    }
+
+    .div-2{
+        width:300px;
+        position: relative;
+    }
+
+    .div2{
+        width:230px
+    }
+
+    .child-div {
+        width: 10px;
+        height: 10px;
+        background-color: white;
+        border-radius: 50%;
+        position: absolute;
+        animation: media-2 2s 1s ease infinite;
+    }
+
+    .parent-div{
+        width:250px;
+        height:15px;
+        border-radius: 20px;
+        background-color: #151E49;
+        margin-bottom: 10px;
+        animation:media 2s 1s infinite;
+        padding-top: 2px;
+    }
+
+    .number-div{
+        padding-right: 25px;
+    }
+
+    .comment-div{
+        position: absolute;
+        bottom:-90px;
+        left:30px;
+        border-radius: 5px;
+    }
+
+    .img3{
+        width:0px
+    }
+
+    @keyframes media{
+        from{
+            width:0%;
+            background-color: hsl(6, 100%, 80%);
+        }
+    
+        to{
+            width:220px;
+            background-color: hsl(335, 100%, 65%);
+        }
+    }
+    
+    @keyframes media-2{
+        from{
+            left:0%
+        }
+    
+        to{
+            left:210px
+        }
+    }
+}

@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+    font-family: "Epilogue", serif;
+}
+
+body{
+    background-color: hsl(0, 0%, 97%);
+}
+
+header{
+    position: relative;
+    padding-top: 30px;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: row;
+    gap:50px
+}
+
+main{
+    position: relative;
+    padding-left: 200px;
+    padding-top: 170px;
+}
+
+.img1{
+    width:84px;
+    height:27px
+}
+
+.a-hrefs{
+    display: flex;
+    flex-direction: row;
+}
+
+.a-href1{
+    display: flex;
+    flex-direction: row;
+    gap:50px
+}
+
+.a-href1 a{
+    text-decoration: none;
+    color:hsl(0, 0%, 41%);
+    font-weight: 500;
+    transition:0.25s;
+}
+
+.a-href1 a:hover{
+    text-decoration: none;
+    color:hsl(0, 0%, 8%);
+    font-weight: 500;
+}
+
+.a-href2{
+    padding-left:800px;
+}
+
+.a1{
+    text-decoration: none;
+    color:hsl(0, 0%, 41%);
+    font-weight: 500;
+    padding-right: 30px;
+    transition:0.25s;
+}
+
+.a2{
+    text-decoration: none;
+    color:hsl(0, 0%, 41%);
+    font-weight: 500;
+    border:2px solid hsl(0, 0%, 41%);
+    padding:10px;
+    border-radius: 15px;
+    transition:0.25s;
+}
+
+.a1:hover{
+    color:hsl(0, 0%, 8%);
+}
+
+.a2:hover{
+    color:hsl(0, 0%, 8%);
+    border:2px solid hsl(0, 0%, 8%);
+}
+
+.div1{
+    position: absolute;
+    top:60px;
+    left:145px;
+    background-color: white;
+    width:150px;
+    height:160px;
+    padding-left: 20px;
+    padding-top: 15px;
+    border-radius: 10px;
+}
+
+.todolist{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    gap:10px
+}
+
+.calendar{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    gap:10px
+}
+
+.reminder-div{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    gap:10px
+}
+
+.planning-div{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    gap:10px
+}
+
+.div2{
+    position: absolute;
+    top:60px;
+    left:305px;
+    background-color: white;
+    width:120px;
+    height:120px;
+    padding-left: 20px;
+    padding-top: 15px;
+    border-radius: 10px;
+}
+
+.paragraph1{
+    color:hsl(0, 0%, 41%);
+    font-weight: 500;
+}
+
+.div2 .paragraph1{
+    margin-bottom: 15px;
+}
+
+h1{
+    font-size: 70px;
+    margin-bottom: 70px;
+}
+
+.main-info{
+    display: flex;
+    flex-direction: row;
+    gap:250px
+}
+
+.img2{
+    position: absolute;
+    top:100px;
+    width:430px
+}
+
+.paragraph2{
+    font-size: 18px;
+    color:hsl(0, 0%, 41%);
+    font-weight: 500;
+    margin-bottom:50px;
+}
+
+button{
+    background-color: hsl(0, 0%, 8%);
+    padding:15px;
+    width:130px;
+    color:white;
+    border:none;
+    border-radius: 10px;
+    font-weight: 700;
+    margin-bottom: 150px;
+}
+
+button:hover{
+    background-color: transparent;
+    border:1px solid hsl(0, 0%, 8%);
+    color:hsl(0, 0%, 8%);
+    transition: 0.25s;
+}
+
+.img3{
+    padding-right: 50px;
+}
